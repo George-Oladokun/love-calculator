@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    /* background-color: pink; */
+    font-family: poppins;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 60vw;
+    box-shadow: inset -8px -8px 12px rgb(185, 103, 117), inset 8px 8px 12px rgb(201, 95, 114);
+    border-radius: 50px;
+}
+
+.content {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    /* color: #d7385c; */
+}
+
+.inputarea {
+    display: flex;
+}
+
+.inputarea input {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    outline: none;
+    border: 2px solid #d7385c;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+img {
+    height: 50px;
+}
+
+#print{
+    display: flex;
+    justify-content: center;
+    background-color: #d7385c;
+    margin: 20px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+#statement{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/* .imgstyler{
+    border: 2px solid;
+} */
+.btnstyle{
+    background-color: red;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+@media (max-width: 600px){
+    body{
+        background-color: pink;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .inputarea {
+        display: block;
+      
+    } 
+    .container{
+        width: 93% !important;   
+        padding: 10px !important;
+        background-color: pink;
+        border-radius: 5px; 
+        box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.256);
+    }
+    .img-g{
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        height: 50px;
+        /* display: none; */
+    }
+    button{
+        background-color: pink !important;
+        box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.256);
+        width: 100px;
+        color: black !important;
+        font-size: 19px !important;
+        border: none;
+        outline: none;
+        border-radius: 2px !important;
+        padding: 15px 20px !important;
+        margin-top: 10px;
+    }
+    #print{
+        
+        /* margin: 0px !important; */
+        padding: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
